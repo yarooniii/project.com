@@ -1,0 +1,119 @@
+CUSTOMER COLLABORATION & EXCELLENCE | ORDER-TO-CASH (OTC)
+
+1. DEPARTMENTAL STRUCTURE & ROLES Overview
+
+Our department operates at the core of the end-to-end Order-to-Cash (OTC) cycle, driving customer satisfaction, operational excellence, and continuous process optimization. The organization is divided into two specialized pillars:
+
+ Customer Collaboration Team: Manages customer relationships (CRM), commercial reconciliations, customer-specific performance metrics (Scorecards), process improvement projects, and channel-specific logistics strategies. This team acts as the primary strategic bridge between the customer and the business.
+
+ Order Fulfillment Team: Owns the operational Order Management flow. Responsibilities span from initial order receipt and verification to system integration, financial credit clearance, inventory validation, and final delivery creation before handing over to the logistics team.
+
+2. COMMERCIAL CHANNELS & OPERATIONAL DYNAMICS
+
+A. Export Channel
+
+Manages end-to-end international operations, from order receipt through manufacturing alignment to customs clearance and final departure.
+
+ Order & Forecast Management: While annual forecasts provide a baseline, operational execution is driven strictly by finalized orders entered into the system, taking the last 6–8 weeks as the principal reference.
+
+ Lead Time & Planning: Operates on a strict "Make-to-Order" model. Weekly split meetings are conducted with Demand & Supply Analysts to monitor production on a product basis, aiming to dispatch goods within 6 to 8 weeks following order entry.
+
+ Special Production & Labeling: Due to varying regulatory frameworks across destination countries, specialized production and labeling services are provided. Because these orders require post-production transfers to alternative locations for labeling, they require extended lead times. Proactive planning starts months in advance (e.g., preparing in July for August and September shipments).
+
+ Workflows by Portfolio:
+
+1. Kent Products (Gum, Candy, etc.): Entirely of Turkish origin; production planning is tightly monitored through weekly split meetings with the Demand & Supply Analyst.
+
+2. Chipita 7Days & Transit Operations: Seamlessly coordinates production and shipment via weekly follow-up meetings. In addition to domestic goods, the team orchestrates comprehensive transit loading operations (e.g., transit shipments of 7Days Cake Bars from Romania to Palestine, Cadbury products from the UK to Cyprus, and imported Biscuit/Chocolate categories from bonded warehouses to Cyprus prior to nationalization in Türkiye).
+
+ Financial Policies & Loading Logistics: Executed predominantly on Ex-Works (EXW) delivery terms where customers arrange transport vehicles. The department operates strictly on a Prepayment (Cash in Advance) system. Under no circumstances is a system Credit Block removed without confirmed payment and explicit authorization from the Finance Team.
+
+ Export Documentation & Finalization: Collaborative preparation with partnered customs brokerage firms (Doğruer and Dörtel) yields the following vital documentation upon loading completion: Commercial Invoice, Packing List (carton-level weight and dimensions), Local (TR) Invoice (officially recorded by the Revenue Administration), and LOT List (LOT numbers, expiration dates, physical conditions). Documents like the agency bill of lading or customs declarations are handed over to authorize departure.
+
+B. Traditional Trade (TT) Channel
+
+Encompasses Distributor Operations (DO), Wholesale (WS), and Away From Home (AFH) sub-channels. The operational cycle flows from Sales Team demand and EDI/WOT order injection to available stock checks, allocation/fair share rules, SKU-level CFR tracking, and Credit Blocks verification with Customer Finance, culminating in route optimization and Delivery Creation for Logistics. Performance management strictly monitors MOQ, CFR, DPS, and OTIF metrics.
+
+C. Modern Trade (MT) & Discounter Channel
+
+(Characterized by high operational complexity, stringent compliance windows, and highly intense monitoring.)
+
+ Modern Trade (MT): Focuses on national hypermarket and supermarket chains. It is governed by fixed ordering cycles (primarily Mondays and Thursdays), rigid Cut-off times, and a strict focus on maximizing automated flows while eliminating manual errors.
+
+ Discounter Channel (Analyzed as a Separate Strategic Channel): Comprises hard-discounter chains, primarily BİM and A101. Due to its decentralized structural nature, it requires the highest level of operational follow-up and manual coordination.
+
+ The "State System" Structure: Although a discounter represents a single corporate entity, each regional warehouse operates independently. Managing BİM and A101 alone requires direct alignment with over 130 regional zones. Across the entire discounter portfolio, the team actively manages over 200 distinct delivery locations and warehouses.
+
+ Strict Order Balance Tracking: The defining characteristic of the discounter channel is the constant monitoring of order balances. The team works in continuous coordination with the Sales Team to determine exactly which open orders must be dispatched, which balances must be cancelled, or which orders need to be re-entered.
+
+ Customer Queries & Claims Management: The team processes daily queries regarding order status, delivery ETAs, and post-delivery discrepancies from all 200+ locations. If a quality defect or physical damage is reported post-delivery, a system claim is opened, and a "Damaged Return" logistics operation is initiated to retrieve the stock.
+
+ Invoice & Waybill Reconciliation: Discounter platforms frequently encounter issues matching physical waybills with digital invoices. The team is fully responsible for executing detailed invoice reconciliations to resolve discrepancies stemming from incorrect unit prices, quantities, or misalignments.
+
+ Logistics Execution & 3PL Alignment: Tracks the end-to-end journey from flawless system entry to full and on-time delivery at the customer’s dock. The team maintains a continuous loop with the Logistics team and 3PL (Third-Party Logistics) carriers to resolve real-time gate delivery issues, long queuing delays, or receiving disputes at the warehouses.
+
+ In & Out Promotion Cycles: Discounter operations are heavily driven by high-volume, temporary weekly promotions. Planning for these "In & Out" promotional items starts weeks in advance. Weekly cross-functional alignment meetings are held to map out potential delivery risks, operational capacities, and absolute hard deadlines.
+
+3. MT & DISCOUNTER ORDER MANAGEMENT PROCESS DETAILED WORKFLOW
+
+Designed to enforce the Minimum Manual Touch principle, this workflow ensures an automated, zero-defect supply chain.
+
+Step-by-Step Operational Flow:
+
+1. Order Initiation & Injection: Customers transmit orders via EDI. Orders land initially in the Cockpit system for technical validation before being successfully pushed into SAP as raw Sales Orders.
+
+2. Credit Check: Incoming SAP orders are automatically subjected to financial risk evaluation. If a Credit Block is triggered, the Order Fulfillment team immediately engages the Customer Finance team. Operational processing is halted; no further steps can occur until the block is officially lifted.
+
+3. Demand Planning Review: Once financially cleared, orders are reviewed against stock availability and manufacturing schedules by the Demand Planning team. If items are out of stock or need to be phased out, the team adjusts the orders, removing or revising line items to make the order fully shippable.
+
+4. Delivery Creation: Following absolute financial and inventory validation, the team establishes confirmed Delivery documents within SAP.
+
+5. Logistics Devolution & Picking: Confirmed delivery data is transmitted to the Logistics team, triggering vehicle scheduling, route planning, warehouse picking, and final shipment.
+
+Process Success Factors:
+
+ Minimum Manual Touch: A core departmental KPI focused on minimizing manual order entry, manual line adjustments, or post-facto order modifications. Maximizing automated EDI processing directly mitigates operational error rates and speeds up cycle times.
+
+ Cut-off Time Management: MT ordering cycles are fixed on Mondays and Thursdays with a standard Cut-off Time of 15:00. This deadline is critical because late order arrivals do not just delay system entry; they cause a domino effect across the entire dependent chain (SAP processing, Credit Check, Finance approval, Demand review, order adjustments, and Delivery Creation). Missing the cut-off forces late logistics planning, directly compromising departure windows and warehouse picking schedules. The team coordinates constantly with Sales to guarantee clean, on-time order submissions.
+
+ Excel Upload Process: Orders failing to arrive via EDI are injected using an Excel Upload Macro. This requires zero-error inputs across fields including product temperature class (Ambient / TC), correct warehouse assignment, exact material codes, and precise customer account numbers. Minor input errors completely block SAP integration. Furthermore, system processing latency may cause macro-uploaded orders to clear into SAP the following business day rather than same-day; this processing lead time must be factored into daily planning.
+
+4. STANDARD & hazır DEPARTMENTAL REPORTS
+
+To provide end-to-end operational visibility across commercial and supply chain teams, our department publishes the following standardized toolsets:
+
+ Delivery Report (Daily): A highly detailed situational matrix capturing incoming order volumes, financial values, total confirmed quantities, and Actual Goods Movement (PGI) status. It highlights official target KPIs and metrics indicating exactly where the business stands against daily and monthly targets.
+
+ Order Report (Daily / Alternate Days): Provides comprehensive tracking of the current status of all incoming customer orders. The raw data provides deep visibility into order dates, customer names, exact volumes, and real-time billing states.
+
+ SOX Report (Monthly): A strict compliance report detailing the lead times of all orders invoiced within the active month. Utilizing actual delivery date timestamps secured directly from Logistics/Transportation trackers, it measures on-time execution and maps out granular root causes for any recorded delivery delays or customer misalignments.
+
+ RevRec (Revenue Recognition) Report: Evaluates financial cutoff barriers. It isolates orders that underwent Actual Goods Movement within the active month but whose physical arrival and billing cycle cross into the subsequent month, preventing reporting overlaps and internal alignment confusion.
+
+ Month-End Actual Report: A closing summary mapping outstanding financial accruals (provisions) against finalized, actualized shipment volumes for the completed period.
+
+ Quantity Difference Reconciliation & D&E File: Categorizes and tracks financial write-offs and quantities tied to customer refusals, shortages, or physically damaged returns at the SKU and category levels.
+
+ OTIF & CFR Scorecards: Maintained in partnership with Logistics. The team maps out specific reason codes for unfulfilled or delayed lines, providing data shared with global leadership. Crucially, the team conducts regular scorecard alignment meetings with major customers to resolve calculation differences between internal tracking and customer portal data, ensuring mutual agreement on OTIF and CFR percentages while tackling chronic delivery pain points or establishing MOQ guardrails.
+
+5. INVOICING & CLAIMS MANAGEMENT
+
+Post-shipment financial corrections and operational deductions are cataloged and processed across five primary pillars:
+
+1. Intercompany Billing: Managed under TR41 and TR42 Sales Organizations. Owns the billing initialization after Post Goods Issue (PGI) is completed for finished goods, handling invoice corrections, adjustments, and formal approval streams based on inputs from Export representatives.
+
+2. Domestic Billing: Governed under the TR01 Sales Organization. Manages the billing flow for all domestic shipments following PGI completion. Legal compliance mandates that all invoices must be generated within a maximum of 7 days from the physical shipment date.
+
+3. Customer Claims: Evaluates and processes customer-initiated deductions, penalties, or return requests under five distinct categories:
+
+ Damaged Return: Physical collection and return of damaged stock from customer sites back to our distribution points, applicable to accounts lacking a structural non-return agreement.
+
+ Quantity Difference & Refusal: Financial processing and billing corrections for shortages, damages, or compliance refusals flagged at the customer's receiving dock.
+
+ Exceptional & Price Correction: Credit/debit adjustments generated to resolve commercial pricing mismatches or contract variances.
+
+ Seasonal: The post-holiday return management of seasonal confectionery portfolios from distributors and retailers, overseeing physical triage (separating sound vs. damaged stock) followed by final credit processing.
+
+ Penalty Invoices: Financial processing of customer-issued deductions stemming from non-compliance penalties, palet exchange variances, or failure-to-deliver (CFR) penalties.
+
+
